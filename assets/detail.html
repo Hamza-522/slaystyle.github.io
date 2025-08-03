@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product</title>
+  <link rel="stylesheet" href="dstyle.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="pstyle.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .container {
+        padding: 2rem 0rem;
+      }
+      
+      .table-image {
+        
+        thead {
+          td, th {
+            border: 0;
+            color: #666;
+            font-size: 0.8rem;
+          }
+        }
+        
+        td, th {
+          vertical-align: middle;
+          text-align: center;
+          
+          &.qty {
+            max-width: 2rem;
+          }
+        }
+      }
+      
+      .price {
+        margin-left: 1rem;
+      }
+      
+      .modal-footer {
+        padding-top: 0rem;
+      }
+</style>
+<body>
+    <header>
+        <div id="page">
+          <div class="site">
+              <header>
+                  <div class="containe">
+                      <div class="content">
+                          <div class="left">
+                              <a href="#" class="trigger"><i class="ri-menu-line"></i></a>
+                              <div class="logo">
+                                  <a href="../index.html">
+                                      <img src="assets/images/Posh.png"  alt="">
+                                      <img src="images/Posh.png" alt="">
+                                  </a>
+                              </div>
+                          </div>
+                     
+                          <div class="middle">
+                              <nav>
+                                  <ul>
+                                      <li class="dropdown">
+                                          <a  href="product.html">Product <i class="ri-arrow-down-s-line dropdown-icon"></i></a>
+                                          <ul class="dropdown-content">
+                                            <li><a href="watch.html">Watches</a></li>
+                                            <li><a href="backs.html">Backpacks</a></li>
+                                            <li><a href="assoris.html">Pants</a></li>
+                                            <li><a href="shorts.html">Shorts</a></li>
+                                            <li><a href="clothe.html">Clothes</a></li>
+                                            <li><a href="shoes.html">Shoes</a></li>
+                                             
+                                          </ul>
+                                      </li>
+                                      <li>
+                                          <a href="lookbook.html">Lookbook</a>
+                                      </li>
+                                      <li><a  href="contact.html">Contact</a></li>
+                                      <li><a href="about.html">About</a></li>
+                                  </ul>
+                              </nav>
+                          </div>
+                          <div class="right">
+                              <ul>
+                                  <li><a href=""><i class="ri-search-line"></i></a></li>
+                                  <li><a href=""><i class="ri-shopping-bag-line"></i></a></li>
+                                  <li><a href=""><i class="ri-heart-line"></i></a></li>
+                                  <li><a href="login.html"><i class="ri-user-line"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </header>
+              <nav class="mobile-menu">
+                  <div class="mini">
+                      <a href="#" class="mini-close"><i class="ri-close-line"></i></a>
+                      <div class="menu-head">
+                          <div class="top">
+                              <ul>
+                                  <li><a href=""><i class="ri-shopping-bag-line"></i></a></li>
+                                  <li><a href=""><i class="ri-heart-line"></i></a></li>
+                                  <li><a href=""><i class="ri-arrow-left-right-line"></i></a></li>
+                                  <li><a href="login.html"><i class="ri-user-line"></i></a></li>
+                                  <li><a href=""><i class="ri-global-line"></i></a></li>
+                              </ul>
+                          </div>
+                              <div class="logo"><a href="../index.html">POSH</a></div>
+                              <div class="socials">
+                                  <ul>
+                                      <li><a href=""><i class="ri-facebook-line"></i></a></li>
+                                      <li><a href=""><i class="ri-twitter-line"></i></a></li>
+                                      <li><a href=""><i class="ri-instagram-line"></i></a></li>
+                                      <li><a href=""><i class="ri-whatsapp-line"></i></a></li>
+                                      <li><a href=""><i class="ri-youtube-line"></i></a></li>
+                                  </ul>
+                              </div>
+                      </div>
+                  </div>
+                  <div class="wider">
+                      <div class="main-menu">
+                          <div class="search">
+                              <i class="ri-search-line"></i>
+                              <form action=""><input type="search" placeholder="Search Here"></form>
+                          </div>
+                          <div class="menu-list"> 
+                              <ul>
+                                  <li class="has-child">
+                                      <a href="#"><span>Product</span><i class="ri-arrow-right-s-line"> </i></a>
+                                      <ul>
+                                          <li class="back"><a href="product.html"><span>Product</span><i class="ri-arrow-left-s-line"></i></a></li>
+                                          <li><a href="watch.html">Watches</a></li>
+                                          <li><a href="backs.html">Backpacks</a></li>
+                                          <li><a href="clothe.html">Clothes</a></li>
+                                          <li><a href="shoes.html">Shoes</a></li>
+                                          <li><a href="assoris.html">Pants</a></li>
+                                          <li><a href="shorts.html">Shorts</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="has-child">
+                                      <a href="lookbook.html"><span>LookBook</span><i class="ri-arrow-right-s-line"> </i></a>
+                                  </li>
+                                  <li><a href="blogs.html"><span>Blog</span></a></li>
+                                  <li><a href="about.html"><span>About Us</span></a></li>
+                                  <li><a href="contact.html"><span>Contact Us</span></a></li>
+                              </ul>
+                          </div>
+                          <div class="copyright">
+                              <p>&copy; 2023. Made And Designed By <a href="#">Hamza</a></p>
+                          </div>
+                      </div>
+                  </div>
+              </nav>
+              <div class="overlay"></div>
+          </div>
+      </div>
+      </header>
+
+      <div class="container mt-5 p-3" style="background-color: #f3f7f9;">
+        <i class="ri-home-4-line"></i> /   clothes / <span style="color: #f7525a;">Printed Hawaii Shirt Brutus</span>
+      </div>
+
+      <section class=" container sproduct my-5">
+        <div class="row mt-5" >
+            <div class="col-lg-5 col-md-12 col-12">
+                <img class="img-fluid w-100 pb-1" src="images/product-1.jpg" alt="" >
+    
+            </div>
+            <div class="col-lg-5 col-md-6 col-12">
+              <div class="contant">
+                    <h2>Printed Hawaii Shirt Brutus</h2>
+                    <p>Regular fit, round neckline, short sleeves. Made of extra long staple pima cotton.</p>
+                    <div class="reviw">
+                        <h4>Rating</h4>
+                        <ul>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-half-fill"></i></li>
+                        </ul>
+                    </div>
+                    <div class="rewive">
+                        <i class="ri-message-2-fill"></i>
+                        <a href="#nav-tab" id="readReviewsLink">Read reviews (1)</a>
+                    </div>
+                    <div class="price">
+                        <del>$116.17</del>
+                        <span>$92.94</span>
+                        <span class="sales">(Save 20%)</span>
+                    </div>
+                    <div class="quty-text">Quantity</div>
+                    <div class="qty-input mt-4">
+                      <button class="qty-count qty-count--minus" data-action="minus" type="button">-</button>
+                      <input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
+                      <button class="qty-count qty-count--add" data-action="add" type="button">+</button>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Select Size</option>
+                        <option value="1">Small</option>
+                        <option value="2">Large</option>
+                        <option value="3">X large</option>
+                      </select>
+                    </div>
+                    <div class="btn-add"><a href="#" ><i class="ri-shopping-bag-line me-1" data-toggle="modal" data-target="#cartModal"></i>Add to Card</a></div> 
+                    <div class="socal-icon mt-4">
+                        <div class="icon-1"><i class="ri-heart-line"></i></div>
+                      <div  class="icon-2"><i class="ri-loop-left-line"></i></div>
+                      </div>
+                      <div class="share">
+                        <ul>
+                            <li class="share"><a href="">Share</a></li>
+                            <li><a href=""><i class="ri-facebook-fill"></i></a></li>
+                            <li><a href=""><i class="ri-twitter-fill"></i></a></li>
+                            <li><a href=""><i class="ri-pinterest-fill"></i></a></li>
+                        </ul>
+                      </div>
+                </div>           
+            </div>
+        </div>
+    </section>
+    <section id="tabs" style=" padding: 21px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h6 class="section-title h1"></h6>
+                    <nav>
+                        <ul class="nav nav-tabs border-bottom-0 justify-content-center" id="nav-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link  border-0" id="nav-home-tab" data-bs-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false">Description</a>
+                            </li>
+                            <li class="nav-item border-0">
+                                <a class="nav-link border-0" id="nav-profile-tab" data-bs-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Product Details</a>
+                            </li>
+                            <li class="nav-item border-0">
+                                <a class="nav-link border-0" id="nav-contact-tab nav-contact" data-bs-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Reviews</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <p>Symbol of lightness and delicacy, the hummingbird evokes curiosity and joy. Studio Design' PolyFaune collection features classic products with colorful patterns, inspired by the traditional japanese origamis. To wear with a chino or jeans. The sublimation textile printing process provides an exceptional color rendering and a color, guaranteed overtime.</p>
+                        </div>
+                        <div class="tab-pane fade tab-2" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                           <div class="brdimg">
+                            <img src="images/brandlogo.jpg" alt="">
+                           </div>
+                            <div class="ref">
+                            <h2>Reference</h2><span>Example-32</span>
+                           </div>
+                            <div class="stk">
+                                <h2>In stock</h2><span>2400 Items</span>
+                            </div>
+                            <div class="compation">
+                                <h2>Data</h2>
+                                <div class="com1 d-flex">
+                                <h2><span>Composition</span></h2> 
+                                <h2><span>Cotton</span></h2>
+                                </div>
+                                <div class="com1 d-flex">
+                                <h2><span>Property</span></h2> 
+                                <h2><span>Short sleeves</span></h2>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="rev-con">
+                                <div class="rv">
+                                    <span>Grade</span>
+                                   <div class="rat">
+                                    <ul>
+                                        <li><i class="ri-star-fill"></i></li>
+                                        <li><i class="ri-star-fill"></i></li>
+                                        <li><i class="ri-star-fill"></i></li>
+                                        <li><i class="ri-star-fill"></i></li>
+                                        <li><i class="ri-star-fill"></i></li>
+                                    </ul>
+                                   </div>
+                                    <div class="ml">
+                                        <h2>demo demo</h2>
+                                     <span class="date">5/8/2023</span>
+                                    </div>
+                                </div>
+                                <div class="rev-com">   
+                                    <h2>review product</h2>
+                                    <p>The suit is very beautiful, the color is eye-catching, I love it</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="section-title h1"></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section>
+        <div class="container mt-5">
+            <h1 class="h1">Related Product</h1>
+        </div>
+
+            <div class="container mt-5 product-con"  id="loopcards">
+          
+            </div>
+   
+      
+    </section>
+    
+    <div class="container">
+        <div id="customModal" class="custom-modal">
+          <div class="custom-modal-content">
+              <div class="imgbox">
+                <img src="images/product-1.jpg" alt="">
+              </div>
+              <div class="M-c mt-1">
+                  <h2>Printed Hawaii Shirt Brutus</h2>
+                  <div class="price-con">
+                    <span><del class="me-3">$116.17</del> $92.94 <sl class="ms-3">(20% sale)</sl></span>
+                  </div>
+                  <p class="mt-2">Regular fit, round neckline, short sleeves. Made of extra long staple pima cotton.</p>
+                  <div class="quty-text">Quantity</div>
+                  <div class="qty-input">
+                    <button class="qty-count qty-count--minus" data-action="minus" type="button">-</button>
+                    <input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
+                    <button class="qty-count qty-count--add" data-action="add" type="button">+</button>
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Select Size</option>
+                      <option value="1">Small</option>
+                      <option value="2">Large</option>
+                      <option value="3">X large</option>
+                    </select>
+                  </div>
+                  <div class="btn-add"><a href="#"><i class="ri-shopping-bag-line me-1"></i>Add to Card</a></div>  
+                  <div class="socal-icon mt-4">
+                    <div class="icon-1"><i class="ri-heart-line"></i></div>
+                  <div  class="icon-2"><i class="ri-loop-left-line"></i></div>
+                  </div>
+                </div>
+                <span class="close-btn ms-5" id="closeModalBtn">&times;</span>
+          </div>
+        </div>
+      </div>
+     
+      <footer>
+        <div class="footer-content">
+            <h3>STYLESAVVY.COM</h3>
+            <p>
+              "Welcome to StyleS - Your One-Stop Destination for Luxurious Accessories to Elevate Your Fashion Statement"</p>
+            <ul class="socials">
+                <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+                <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+                <li><a href="#"><i class="ri-google-fill"></i></a></li>
+                <li><a href="#"><i class="ri-pinterest-fill"></i></a></li>
+                <li><a href="#"><i class="ri-google-play-fill"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023. designed by <span>Hamza</span></p>
+        </div>
+      </footer>
+            
+      <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Your Shopping Cart
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-image">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="w-25">
+                      <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png" class="img-fluid img-thumbnail" alt="Sheep">
+                    </td>
+                    <td>Vans Sk8-Hi MTE Shoes</td>
+                    <td>89$</td>
+                    <td class="qty"><input type="text" class="form-control" id="input1" value="2"></td>
+                    <td>178$</td>
+                    <td>
+                      <a href="#" class="btn btn-danger btn-sm">
+                        <i class="fa fa-times"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table> 
+              <div class="d-flex justify-content-end">
+                <h5>Total: <span class="price text-success">89$</span></h5>
+              </div>
+            </div>
+            <div class="modal-footer border-top-0 d-flex justify-content-between">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="data.json"></script>
+    <script src="java.js"></script>
+    <script src="../java.js"></script>
+    <script src="pjava.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+
+        
+        
+     for(var i = 0 ; i <=detailCard.length; i++ ){
+    
+        document.getElementById('loopcards').innerHTML += `
+   
+        <div class="col">
+               <div class="cd-prodcut">
+                 <div class="imgbx">
+                   <img src="${detailCard[i].image}" alt="">
+                   <ul class="sale-option">
+                       <li><a href="#" style="${detailCard[i].color} ${detailCard[i].display}">${detailCard[i].context}</a></li>
+                       <li><a href="#" style="${detailCard[i].color2}${detailCard[i].display}">${detailCard[i].context2}</a></li>
+                   </ul>
+                   <ul class="action">
+                     <li><i class="ri-search-line btn" onclick="openModal(detailCard[${i}])"></i>
+                       <span>Quick View</span>
+                     </li>
+                     
+                     <li><i class="ri-shopping-cart-line" aria-hidden="true"></i>
+                       <span>Add to Cart</span>
+                     </li>
+                     <li><i  class="ri-heart-line" aria-hidden="true"></i>
+                       <span>Add to Wishlist</span>
+                     </li>
+                   </ul>
+                 </div> 
+                 <div class="content">
+                   <div class="productName">
+                     <h3 >${detailCard[i].name}</h3>
+                   </div>
+                   <div class="price-rating">
+                     <h2><del>${detailCard[i].dil}</del> ${detailCard[i].price}</h2>
+                   </div>
+                 </div>
+               </div>
+               </div>
+        
+       `
+    };
+    $(document).ready(function() {  
+        $('#cartModal').modal('show');
+      });
+       // Function to retrieve query parameters by name
+       function getQueryParam(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name) || '';
+    }
+    </script>
+
+</body>
+</html>

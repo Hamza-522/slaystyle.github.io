@@ -1,0 +1,1482 @@
+var productCard= [
+  {
+    "image": "images/product-1.jpg",
+    "name": "Printed Hawaii Shirt Brutus",
+    "price": "$92.94",
+    "dil" : "$116.7",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+    
+  },
+  {
+    "image": "images/product-2.jpg",
+    "name": "All-Over Printed Polo",
+    "price": "$162.36",
+    "dil" : "",
+    "context":"New",
+    "context2":"Out of stock",
+    "color": "background-color:#82CA9C;",
+    "color2": " background-color:#2d2f31;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+    
+  },
+  {
+    "image": "images/product-3.jpg",
+    "name": "Badge Detail Zip-Through Hoodie",
+    "price": "$144.98",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/product-4.jpg",
+    "name": "Rayon a-line Dress",
+    "price": "$136.62",
+    "dil" : "$198.00",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/product-5.jpg",
+    "name": "Mountain fox - vector graphics",
+    "price": "$9.00",
+    "dil" : "187.10",
+    "context":"-10%",
+    "context2":"display: none;",
+    "color": "background-color: #ff6f6f;",
+    "color2": "display: none;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/shoes/S1.png",
+    "name": "Rayon a-line Dress",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;"
+    
+  },
+  {
+    "image": "images/shoes/S6.png",
+    "name": "Rayon a-line Dress",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/bages/b6.png",
+    "name": "Rayon a-line Dress",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/bages/b11.png",
+    "name": "Rayon a-line Dress",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/paints/pan12.png",
+    "name": "Rayon a-line Dress",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/Shorts/sh11.png",
+    "name": "Rayon a-line Dress",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/pro/3.jpg",
+    "name": "Rayon a-line Dress",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  
+]
+var detailCard= [
+  {
+    "id": "8",
+    "image": "images/product-2.jpg",
+    "name": "All-Over Printed Polo",
+    "price": "$162.36",
+    "dil" : "",
+    "context":"New",
+    "context2":"Out of stock",
+    "color": "background-color:#82CA9C;",
+    "color2": " background-color:#2d2f31;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+    
+  },
+  {
+    "id": "6",
+    "image": "images/product-3.jpg",
+    "name": "Badge Detail Zip-Through Hoodie",
+    "price": "$144.98",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "id": "7",
+    "image": "images/product-4.jpg",
+    "name": "Rayon a-line Dress",
+    "price": "$136.62",
+    "dil" : "$198.00",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "id": "1",
+    "image": "images/product-5.jpg",
+    "name": "Mountain fox - vector graphics",
+    "price": "$9.00",
+    "dil" : "187.10",
+    "context":"-10%",
+    "context2":"display: none;",
+    "color": "background-color: #ff6f6f;",
+    "color2": "display: none;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  
+  {
+    "id": "2",
+    "image": "images/pro/3.jpg",
+    "name": "Rayon a-line Dress",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "id": "3",
+    "image": "images/woman/wm8.png",
+    "name": "Rayon a-line Dress",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "id": "4",
+    "image": "images/woman/wm1.png",
+    "name": "Rayon a-line Dress",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "id": "5",
+    "image": "images/woman/wm6.png",
+    "name": "Elemental Premium",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  
+]
+
+var watch = [
+  {
+    "image": "images/watchs/w1.png",
+    "name": "Cosmograph Daytona",
+    "price": "$92.94",
+    "dil" : "$116.7",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+    
+  },
+  {
+    "image": "images/watchs/w2.png",
+    "name": "Redesigned case",
+    "price": "$162.36",
+    "dil" : "",
+    "context":"New",
+    "context2":"Out of stock",
+    "color": "background-color:#82CA9C;",
+    "color2": " background-color:#2d2f31;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/watchs/w3.png",
+    "name": "Yacht-Master 42",
+    "price": "$144.98",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/watchs/w4.png",
+    "name": "Submariner",
+    "price": "$136.62",
+    "dil" : "$198.00",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/watchs/w5.png",
+    "name": "Datejust 36",
+    "price": "$9.00",
+    "dil" : "187.10",
+    "context":"-10%",
+    "context2":"display: none;",
+    "color": "background-color: #ff6f6f;",
+    "color2": "display: none;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/watchs/w6.png",
+    "name": "1908",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/watchs/w7.png",
+    "name": "Sea-Dweller",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/watchs/w8.png",
+    "name": "Yacht-Master 42",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/watchs/w9.png",
+    "name": "GMT-Master ll",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/watchs/w10.png",
+    "name": "Cosmograph Daytona",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/watchs/w11.png",
+    "name": "Datejust 36",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/watchs/w12.png",
+    "name": "Air-Dweller",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  
+]
+var shoe= [
+  {
+    "image": "images/shoes/S1.png",
+    "name": "Nike Dunk Low",
+    "price": "$92.94",
+    "dil" : "$116.7",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+    
+  },
+  {
+    "image": "images/shoes/S2.png",
+    "name": "Nike Dunk Low Retro",
+    "price": "$162.36",
+    "dil" : "",
+    "context":"New",
+    "context2":"Out of stock",
+    "color": "background-color:#82CA9C;",
+    "color2": " background-color:#2d2f31;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/shoes/S3.png",
+    "name": "Air Jordan 3 Retro",
+    "price": "$144.98",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/shoes/S4.png",
+    "name": "Nike Pegasus 40",
+    "price": "$136.62",
+    "dil" : "$198.00",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/shoes/S5.png",
+    "name": "Air Jordan 1 Mid SE",
+    "price": "$9.00",
+    "dil" : "187.10",
+    "context":"-10%",
+    "context2":"display: none;",
+    "color": "background-color: #ff6f6f;",
+    "color2": "display: none;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/shoes/S6.png",
+    "name": "Air Force 1",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/shoes/S7.png",
+    "name": "Invincible",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/shoes/S8.png",
+    "name": "KD16 NRG",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/shoes/S9.png",
+    "name": "Freak 5",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/shoes/S10.png",
+    "name": "Gainnis Immortality 3",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/shoes/S11.png",
+    "name": "Luka 2",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/shoes/S12.png",
+    "name": "Air Jordan 1 Low SE",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  
+]
+  
+  
+var bag= [
+  {
+    "image": "images/bages/b1.png",
+    "name": "Heritage",
+    "price": "$92.94",
+    "dil" : "$116.7",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+    
+  },
+  {
+    "image": "images/bages/b2.png",
+    "name": "Fuel Pack",
+    "price": "$162.36",
+    "dil" : "",
+    "context":"New",
+    "context2":"Out of stock",
+    "color": "background-color:#82CA9C;",
+    "color2": " background-color:#2d2f31;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/bages/b3.png",
+    "name": "Air Jordan",
+    "price": "$144.98",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/bages/b4.png",
+    "name": "Brasillia ",
+    "price": "$136.62",
+    "dil" : "$198.00",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/bages/b5.png",
+    "name": "Hoops Elite",
+    "price": "$9.00",
+    "dil" : "187.10",
+    "context":"-10%",
+    "context2":"display: none;",
+    "color": "background-color: #ff6f6f;",
+    "color2": "display: none;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/bages/b6.png",
+    "name": "Elemental Premium",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/bages/b7.png",
+    "name": "Brasillia 9.5",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/bages/b8.png",
+    "name": "Utility Elite",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/bages/b9.png",
+    "name": "Sportswear",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/bages/b10.png",
+    "name": "Brasillia JDI",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/bages/b11.png",
+    "name": "Flight mini",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/bages/b12.png",
+    "name": "Heritage",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+  },
+  
+]
+
+var pant= [
+  {
+    "image": "images/paints/pan1.png",
+    "name": "Heritage",
+    "price": "$92.94",
+    "dil" : "$116.7",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+    
+  },
+  {
+    "image": "images/paints/pan2.png",
+    "name": "Fuel Pack",
+    "price": "$162.36",
+    "dil" : "",
+    "context":"New",
+    "context2":"Out of stock",
+    "color": "background-color:#82CA9C;",
+    "color2": " background-color:#2d2f31;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/paints/pan3.png",
+    "name": "Air Jordan",
+    "price": "$144.98",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/paints/pan4.png",
+    "name": "Brasillia ",
+    "price": "$136.62",
+    "dil" : "$198.00",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/paints/pan5.png",
+    "name": "Hoops Elite",
+    "price": "$9.00",
+    "dil" : "187.10",
+    "context":"-10%",
+    "context2":"display: none;",
+    "color": "background-color: #ff6f6f;",
+    "color2": "display: none;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/paints/pan6.png",
+    "name": "Elemental Premium",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/paints/pan7.png",
+    "name": "Brasillia 9.5",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/paints/pan8.png",
+    "name": "Utility Elite",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/paints/pan9.png",
+    "name": "Sportswear",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/paints/pan10.png",
+    "name": "Brasillia JDI",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/paints/pan11.png",
+    "name": "Flight mini",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/paints/pan12.png",
+    "name": "Heritage",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  
+]
+
+var Shorts= [
+  {
+    "image": "images/Shorts/sh1.png",
+    "name": "Heritage",
+    "price": "$92.94",
+    "dil" : "$116.7",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+    
+  },
+  {
+    "image": "images/Shorts/sh2.png",
+    "name": "Fuel Pack",
+    "price": "$162.36",
+    "dil" : "",
+    "context":"New",
+    "context2":"Out of stock",
+    "color": "background-color:#82CA9C;",
+    "color2": " background-color:#2d2f31;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/Shorts/sh3.png",
+    "name": "Air Jordan",
+    "price": "$144.98",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/Shorts/sh4.png",
+    "name": "Brasillia ",
+    "price": "$136.62",
+    "dil" : "$198.00",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/Shorts/sh5.png",
+    "name": "Hoops Elite",
+    "price": "$9.00",
+    "dil" : "187.10",
+    "context":"-10%",
+    "context2":"display: none;",
+    "color": "background-color: #ff6f6f;",
+    "color2": "display: none;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/Shorts/sh6.png",
+    "name": "Elemental Premium",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/Shorts/sh7.png",
+    "name": "Brasillia 9.5",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/Shorts/sh8.png",
+    "name": "Utility Elite",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/Shorts/sh9.png",
+    "name": "Sportswear",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/Shorts/sh10.png",
+    "name": "Brasillia JDI",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/Shorts/sh11.png",
+    "name": "Flight mini",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  
+]
+var cloth= [
+  {
+    "image": "images/man/man1.png",
+    "name": "Heritage",
+    "price": "$92.94",
+    "dil" : "$116.7",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+    
+  },
+  {
+    "image": "images/woman/wm1.png",
+    "name": "Fuel Pack",
+    "price": "$162.36",
+    "dil" : "",
+    "context":"New",
+    "context2":"Out of stock",
+    "color": "background-color:#82CA9C;",
+    "color2": " background-color:#2d2f31;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm2.png",
+    "name": "Air Jordan",
+    "price": "$144.98",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man4.png",
+    "name": "Brasillia ",
+    "price": "$136.62",
+    "dil" : "$198.00",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man8.jpg",
+    "name": "Hoops Elite",
+    "price": "$9.00",
+    "dil" : "187.10",
+    "context":"-10%",
+    "context2":"display: none;",
+    "color": "background-color: #ff6f6f;",
+    "color2": "display: none;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm5.png",
+    "name": "Elemental Premium",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm8.png",
+    "name": "Brasillia 9.5",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man9.jpg",
+    "name": "Utility Elite",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm2.png",
+    "name": "Sportswear",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man4.png",
+    "name": "Brasillia JDI",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm10.png",
+    "name": "Flight mini",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man2.png",
+    "name": "Flight mini",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  
+]
+var man= [
+  {
+    "image": "images/man/man3.png",
+    "name": "Heritage",
+    "price": "$92.94",
+    "dil" : "$116.7",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+    
+  },
+  {
+    "image": "images/man/man2.png",
+    "name": "Fuel Pack",
+    "price": "$162.36",
+    "dil" : "",
+    "context":"New",
+    "context2":"Out of stock",
+    "color": "background-color:#82CA9C;",
+    "color2": " background-color:#2d2f31;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man1.png",
+    "name": "Air Jordan",
+    "price": "$144.98",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man4.png",
+    "name": "Brasillia ",
+    "price": "$136.62",
+    "dil" : "$198.00",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man5.png",
+    "name": "Hoops Elite",
+    "price": "$9.00",
+    "dil" : "187.10",
+    "context":"-10%",
+    "context2":"display: none;",
+    "color": "background-color: #ff6f6f;",
+    "color2": "display: none;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man6.png",
+    "name": "Elemental Premium",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man7.png",
+    "name": "Brasillia 9.5",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man9.jpg",
+    "name": "Utility Elite",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man8.jpg",
+    "name": "Sportswear",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man10.png",
+    "name": "Sportswear",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man11.png",
+    "name": "Sportswear",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/man/man12.png",
+    "name": "Sportswear",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+]
+  
+var manWoman= [
+  {
+    "image": "images/woman/wm1.png",
+    "name": "Heritage",
+    "price": "$92.94",
+    "dil" : "$116.7",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+    
+  },
+  {
+    "image": "images/woman/wm2.png",
+    "name": "Fuel Pack",
+    "price": "$162.36",
+    "dil" : "",
+    "context":"New",
+    "context2":"Out of stock",
+    "color": "background-color:#82CA9C;",
+    "color2": " background-color:#2d2f31;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm3.png",
+    "name": "Air Jordan",
+    "price": "$144.98",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm4.png",
+    "name": "Brasillia ",
+    "price": "$136.62",
+    "dil" : "$198.00",
+    "context":"-20%",
+    "context2":"New",
+    "color": "background-color: #ff6f6f;",
+    "color2": "background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm5.png",
+    "name": "Hoops Elite",
+    "price": "$9.00",
+    "dil" : "187.10",
+    "context":"-10%",
+    "context2":"display: none;",
+    "color": "background-color: #ff6f6f;",
+    "color2": "display: none;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm6.png",
+    "name": "Elemental Premium",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm8.png",
+    "name": "Utility Elite",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm9.png",
+    "name": "Sportswear",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm10.png",
+    "name": "Sportswear",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm11.jpg",
+    "name": "Sportswear",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."
+    
+  },
+  {
+    "image": "images/woman/wm12.jpg",
+    "name": "Sportswear",
+    "price": "$13.45",
+    "dil" : "",
+    "context":"display: none;",
+    "context2":"New",
+    "color": "display: none;",
+    "color2": " background-color:#82CA9C;",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, corrupti."  
+    
+  },
+]
+
+
+var loopCards = [
+  {
+    "item": "item-a",
+    "image": "assets/images/man/man1.png",
+    "brand": "Lacoste",
+    "name": "Sweatshirt",
+    "price": "Rs.8680",
+  },
+  {
+     "item": "item-b",
+     "image": "assets/images/woman/wm5.png",
+    "brand": "Mango",
+    "name": "Casual Shirt",
+    "price": "Rs.4490",
+  },
+  {
+     "item": "item-c",
+     "image": "assets/images/product-1.jpg",
+    "brand": "Nike Tshirt",
+    "name": "V-Neck T-shirt",
+    "price": "Rs.3051",
+  },
+  {
+     "item": "item-d",
+     "image": "assets/images/man/man8.jpg",
+    "brand": "Allen Solly Woman",
+    "name": "Formal Shirt",
+    "price": "Rs.1299",
+  },
+  {
+     "item": "item-e",
+     "image": "assets/images/product-4.jpg",
+    "brand": "Puma",
+    "name": "V-Neck T-shirt",
+    "price": "Rs.3299",
+  },
+  {
+     "item": "item-f",
+     "image": "assets/images/woman/wm4.png",
+    "brand": "Ritu Kumar",
+    "name": "Embroidered Tunic",
+    "price": "Rs.5600",
+  },
+  {
+     "item": "item-g",
+     "image": "assets/images/product-5.jpg",
+    "brand": "UNDER ARMOUR",
+    "name": "Golf T-shirt",
+    "price": "Rs.4499",
+  },
+  {
+     "item": "item-h",
+     "image": "assets/images/woman/wm6.png",
+    "brand": "DOROTHY PERKINS",
+    "name": "Solid Cape Top",
+    "price": "Rs.3990",
+  }
+]
+  
+  

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Jost:ital,wght@0,200;0,400;0,500;1,300&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+}
+
+body{
+  background-color: #F2F2F2;
+}
+
+.about h3 {
+    font-size: 18px;
+    color: #2d2d2d;
+    font-weight: 700;
+}
+
+.about h1 {
+    font-size: 28px;
+    color: #2d2d2d;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+.del p ,
+.about p {
+    font-size: 14px;
+    line-height: normal;
+    color: #777777;
+}
+
+.del h1{
+    font-size: 28px;
+    color: #2d2d2d;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.del h3 {
+    font-size: 18px;
+    color: #2d2d2d;
+    font-weight: 700;
+}
+
+
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .email-form input[type="email"],
+  .email-form button {
+    margin-bottom: 10px; /* Add some spacing between the input and button */
+  }
+ 
+ .email-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .email-form input[type="email"] {
+    border: none;
+    border-bottom: 2px solid #383838;
+    padding: 8px 10px;
+    font-size: 12px;
+    outline: none;
+    font-family: 'josh', sans-serif;
+    width: 600px; /* Adjust the width as needed */
+  }
+  
+  .email-form input[type="email"]::placeholder {
+    color: #888888;
+  }
+  

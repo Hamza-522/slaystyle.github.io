@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Jost:ital,wght@0,200;0,400;0,500;1,300&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'jost' sans-serif;
+}
+
+body {
+    padding-top: 80px;
+    font-family: 'Rubik' , sans-serif;
+    font-weight: 16px;
+    font-weight: 400;
+    line-height: 0.8;
+    color: var(--dark-color);
+    background-color: var(--white-color);
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0%;
+}
+
+.card-body p {
+ line-height: 1.5rem;   
+}
+
+.card-body ul li a i {
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.card-body ul li a {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.ri-facebook-fill{
+    color: #41639f;
+}
+
+.ri-twitter-fill{
+    color: #58adee;
+}
+
+.dee ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0%;
+}
+
+.dee ul li a i {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+.card-body .dee li a i {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.card-body .dee li a {
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.card-text{
+    color: #777777;
+    font-size:16px;
+}
+
+
+vr {
+    display: inline-block;
+    width: 1px;
+    height: 30px;
+    background-color: #ccc;
+    margin: 0 5px;
+    margin-top: 14px;
+  }
+
+  .cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cont h1 {
+    color: #FB5D5D;
+    white-space: nowrap;
+  }
+
+ .time span {
+    font-size: 14px;
+    color: #777777;
+    line-height: 1rem;
+    margin-top: 11px;
+ }  
+
+ .cont a {
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-color: #ffffff;
+    color: #777777;
+    border: 1px solid rgba(119, 119, 119, 0.2);
+ }
+
+ .cont a:hover{
+    background-color: #FB5D5D;
+    color: white;
+ }
+
+ .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }

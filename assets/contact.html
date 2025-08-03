@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cstyle.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <!-- <div id="header-container" class="bg-light">
+    <object data="assets/header.html?page=contact"></object>
+  </div> -->
+  <header>
+    <div id="page">
+      <div class="site">
+          <header>
+              <div class="containe">
+                  <div class="content">
+                      <div class="left">
+                          <a href="#" class="trigger"><i class="ri-menu-line"></i></a>
+                          <div class="logo">
+                              <a href="../index.html">
+                                  <img src="images/Posh.png" alt="">
+                              </a>
+                          </div>
+                      </div>
+                 
+                      <div class="middle">
+                          <nav>
+                              <ul>
+                                  <li class="dropdown">
+                                      <a  href="product.html">Product <i class="ri-arrow-down-s-line dropdown-icon"></i></a>
+                                      <ul class="dropdown-content">
+                                        <li><a href="watch.html">Watches</a></li>
+                                        <li><a href="backs.html">Backpacks</a></li>
+                                        <li><a href="assoris.html">Pants</a></li>
+                                        <li><a href="shorts.html">Shorts</a></li>
+                                        <li><a href="clothe.html" >Clothes</a></li>
+                                        <li><a href="shoes.html">Shoes</a></li>
+                                         
+                                      </ul>
+                                  </li>
+                                  <li>
+                                      <a href="lookbook.html">Lookbook</a>
+                                  </li>
+                                  <li><a  href="contact.html">Contact</a></li>
+                                  <li><a href="about.html">About</a></li>
+                              </ul>
+                          </nav>
+                      </div>
+                      <div class="right">
+                          <ul >
+                              <li><a href="#" style="text-decoration: none; color: black;"><i class="ri-search-line"></i></a></li>
+                              <li><a href="#" style="text-decoration: none; color: black;"><i class="ri-shopping-bag-line"></i></a></li>
+                              <li><a href="#" style="text-decoration: none; color: black;"><i class="ri-heart-line"></i></a></li>
+                              <li><a href="login.html" style="text-decoration: none; color: black;"><i class="ri-user-line"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </header>
+          <nav class="mobile-menu">
+              <div class="mini">
+                  <a href="#" class="mini-close"><i class="ri-close-line"></i></a>
+                  <div class="menu-head">
+                      <div class="top">
+                          <ul>
+                              <li><a href=""><i class="ri-shopping-bag-line"></i></a></li>
+                              <li><a href=""><i class="ri-heart-line"></i></a></li>
+                              <li><a href=""><i class="ri-arrow-left-right-line"></i></a></li>
+                              <li><a href="login.html"><i class="ri-user-line"></i></a></li>
+                              <li><a href=""><i class="ri-global-line"></i></a></li>
+                          </ul>
+                      </div>
+                          <div class="logo"><a href="../index.html">POSH</a></div>
+                          <div class="socials">
+                              <ul>
+                                  <li><a href=""><i class="ri-facebook-line"></i></a></li>
+                                  <li><a href=""><i class="ri-twitter-line"></i></a></li>
+                                  <li><a href=""><i class="ri-instagram-line"></i></a></li>
+                                  <li><a href=""><i class="ri-whatsapp-line"></i></a></li>
+                                  <li><a href=""><i class="ri-youtube-line"></i></a></li>
+                              </ul>
+                          </div>
+                  </div>
+              </div>
+              <div class="wider">
+                  <div class="main-menu">
+                      <div class="search">
+                          <i class="ri-search-line"></i>
+                          <form action=""><input type="search" placeholder="Search Here"></form>
+                      </div>
+                      <div class="menu-list"> 
+                          <ul>
+                              <li class="has-child">
+                                  <a href="#"><span>Product</span><i class="ri-arrow-right-s-line"> </i></a>
+                                  <ul>
+                                      <li class="back"><a href="product.html"><span>Product</span><i class="ri-arrow-left-s-line"></i></a></li>
+                                      <li><a href="watch.html">Watches</a></li>
+                                      <li><a href="backs.html">Backpacks</a></li>
+                                      <li><a href="clothe.html">Clothes</a></li>
+                                      <li><a href="shoes.html">Shoes</a></li>
+                                      <li><a href="assoris.html">Pants</a></li>
+                                      <li><a href="shorts.html">Shorts</a></li>
+                                  </ul>
+                              </li>
+                              <li class="has-child">
+                                  <a href="lookbook.html"><span>LookBook</span><i class="ri-arrow-right-s-line"> </i></a>
+                              </li>
+                              <li><a href="blogs.html"><span>Blog</span></a></li>
+                              <li><a href="about.html"><span>About Us</span></a></li>
+                              <li><a href="contact.html"><span>Contact Us</span></a></li>
+                          </ul>
+                      </div>
+                      <div class="copyright">
+                          <p>&copy; 2023. Made And Designed By <a href="#">Hamza</a></p>
+                      </div>
+                  </div>
+              </div>
+          </nav>
+          <div class="overlay"></div>
+      </div>
+  </div>
+  </header>
+  <section>
+    <div class="container">
+        <div class="contactInfo">
+            <div>
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><img src="images/location.png" alt=""></span>
+                        <span>
+                            Aptect Metro Star Gate, <br>
+                            Karachi, Pakistan <br>
+                            704005
+                        </span>
+                    </li>
+                    <li>
+                        <span><img src="images/mail-removebg-preview (1).png" alt=""></span>
+                        <span>
+                            hamza2134@gmail.com <br>
+                            aswasdi2113@gmail.com <br>
+                        </span>
+                    </li>
+                    <li>
+                        <span><img src="images/call-removebg-preview.png" alt=""></span>
+                        <span>
+                            +92 307 8847643 <br>
+                            +92 317 2478108 <br>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <ul class="sci">
+                <li><a href="#"><img src="images/facebook.png" alt="" height="20px"></a></li>
+                <li><a href="#"><img src="images/instagram.png" alt="" height="20px"></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt="" height="20px"></a></li>
+                <li><a href="#"><img src="images/whatsapp.png" alt="" height="20px"></a></li>
+                <li><a href="#"><img src="images/ path.png" alt="" height="20px"></a></li>
+            </ul>
+        </div>
+        <div class="contactForm">
+            <h2>Send a Message</h2>
+            <form id="contactForm" action="your_server_script.php" method="POST">
+                <div class="formBox">
+                    <div class="inputBox w50">
+                        <input type="text" name="firstName" id="firstName" required>
+                        <span>First Name</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" name="lastName" id="lastName" required>
+                        <span>Last Name</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="email" name="email" id="email" required>
+                        <span>Email Address</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="tel" name="mobileNumber" id="mobileNumber" required>
+                        <span>Mobile Number</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <textarea name="message" id="message" required></textarea>
+                        <span>Write your message here....</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="mt-2">
+    <div class="footer-content">
+      <h3>STYLESAVVY.COM</h3>
+      <p>
+        "Welcome to StyleS - Your One-Stop Destination for Luxurious Accessories to Elevate Your Fashion Statement"</p>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/"><i class="ri-facebook-fill"></i></a></li>
+            <li><a href="https://twitter.com/?lang=en"><i class="ri-twitter-fill"></i></a></li>
+            <li><a href="https://www.google.com/"><i class="ri-google-fill"></i></a></li>
+            <li><a href="https://www.pinterest.com/"><i class="ri-pinterest-fill"></i></a></li>
+            <li><a href="https://play.google.com/store/games?pli=1"><i class="ri-google-play-fill"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2023. designed by <span>Hamza</span></p>
+    </div>
+  </footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $.get("header.html", function(data) {
+            $("#header-container").html(data);
+        });
+
+  
+        $("#contactForm").submit(function(event) {
+            var firstName = $("#firstName").val();
+            var lastName = $("#lastName").val();
+            var email = $("#email").val();
+            var mobileNumber = $("#mobileNumber").val();
+            var message = $("#message").val();
+
+            if (firstName === "" || lastName === "" || email === "" || mobileNumber === "" || message === "") {
+                alert("All fields are required");
+                event.preventDefault(); 
+            }
+        });
+    });
+</script>
+</body>
+</html>
