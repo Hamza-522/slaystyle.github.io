@@ -15,7 +15,7 @@ SlayStyle is a fashion and style website built with HTML, CSS, and JavaScript.
 - JavaScript
 
 ## Live Demo
-[Click here to view the live site](https://Hamza-522.github.io)
+[Click here to view the live site](https://hamza-522.github.io/slaystyle.github.io/)
 
 ## Author
 **Hamza**  
